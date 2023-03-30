@@ -15,79 +15,91 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Studio</title>
   </head>
 
   <body>
-    <header>
-      <div>
-        <nav>
-          <a class="logo logo-footer" href="index.html"
+    <header class="header">
+      <div class="container container-nav">
+        <nav class="navbar-list">
+          <a class="logo" href="index.html"
             >Web<span class="logo-black">Studio</span></a
           >
-          <ul class="navbar ul">
-            <li>
-              <a class="navbar-link a-line" href="index.html">Agencja</a>
+          <ul class="space">
+            <li class="navbar-item">
+              <a class="navbar-link space-inbar" href="index.html">Agencja</a>
             </li>
-            <li>
-              <a class="navbar-link a-line" href="portfolio.html">Portfolio</a>
+            <li class="navbar-item">
+              <a class="navbar-link space-inbar" href="portfolio.html"
+                >Portfolio</a
+              >
             </li>
-            <li>
-              <a class="navbar-link a-line" href="contacts.html">Kontakt</a>
+            <li class="navbar-item">
+              <a class="navbar-link space-inbar" href="contacts.html"
+                >Kontakt</a
+              >
             </li>
           </ul>
         </nav>
 
-        <ul class="ul">
-          <li>
-            <a class="address-g a-line link" href="mailto:info@devstudio.com"
+        <ul class="nav-contacts list">
+          <li class="header-contact-item">
+            <a class="address-g link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
 
-          <li>
-            <a class="address-g a-line link" href="tel:+48111111111">
-              +48111111111</a
-            >
+          <li class="header-contact-item">
+            <a class="address-g link" href="tel:+48111111111"> +48111111111</a>
           </li>
         </ul>
       </div>
     </header>
 
     <main>
-      <section class="hero">
-        <div>
-          <h1 class="h1">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+      <section class="hero section">
+        <div class="container hero-container">
+          <h1 class="hero-heading">
+            EFEKTYWNE ROZWIĄZANIA<br />
+            DLA WASZEGO BIZNESU
+          </h1>
           <button class="hero-button" type="button">Zamów usługę</button>
         </div>
       </section>
 
-      <section>
-        <div>
-          <ul class="ul">
-            <li>
+      <section class="section">
+        <div class="container">
+          <ul class="group-list list">
+            <li class="group-item">
               <h3 class="group-heading">LOREM IPSUM</h3>
               <p class="group-detail">
                 We go into all the details and processes of your business to
                 develop a customized solution.
               </p>
             </li>
-            <li>
+            <li class="group-item">
               <h3 class="group-heading">LOREM IPSUM</h3>
               <p class="group-detail">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li>
+            <li class="group-item">
               <h3 class="group-heading">LOREM IPSUM</h3>
               <p class="group-detail">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li>
+            <li class="group-item">
               <h3 class="group-heading">LOREM IPSUM</h3>
               <p class="group-detail">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -98,10 +110,10 @@
         </div>
       </section>
 
-      <section>
-        <div>
+      <section class="section">
+        <div class="container">
           <h2 class="section-heading">Czym się zajmujemy</h2>
-          <ul class="ul">
+          <ul>
             <li>
               <img
                 src="images/what1.jpg"
@@ -130,10 +142,10 @@
         </div>
       </section>
 
-      <section class="section-team">
-        <div>
+      <section class="section-team section">
+        <div class="container">
           <h2 class="section-heading">Nasz zespół</h2>
-          <ul class="ul">
+          <ul>
             <li>
               <img
                 src="images/team.jpg"
@@ -180,28 +192,24 @@
     </main>
 
     <footer class="footer">
-      <div>
+      <div class="container">
         <a class="logo logo-footer" href="index.html"
           >Web<span class="wite">Studio</span></a
         >
         <address>
-          <ul class="ul">
+          <ul>
             <li>
-              <a
-                class="address-w a-line"
-                href="https://goo.gl/maps/qMu27mZDg4rq8LWC8"
+              <a class="address-w" href="https://goo.gl/maps/qMu27mZDg4rq8LWC8"
                 >m. Warszawa, Aleje Jerozolimskie 21</a
               >
             </li>
             <li>
-              <a
-                class="address a-line contacts"
-                href="mailto:info@devstudio.com"
+              <a class="address contacts" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
             <li>
-              <a class="address a-line contacts" href="tel:+48111111111">
+              <a class="address contacts" href="tel:+48111111111">
                 +48 111 111 111</a
               >
             </li>

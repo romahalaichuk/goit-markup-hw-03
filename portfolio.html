@@ -13,6 +13,13 @@
     />
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
 
@@ -22,45 +29,43 @@
   </head>
 
   <body>
-    <header>
-      <div>
+    <header class="header">
+      <div class="container">
         <nav>
           <a class="logo logo-footer" href="index.html"
             >Web<span class="logo-black">Studio</span></a
           >
-          <ul class="navbar ul">
+          <ul class="navbar">
             <li>
-              <a class="navbar-link a-line" href="index.html">Agencja</a>
+              <a class="navbar-link" href="index.html">Agencja</a>
             </li>
             <li>
-              <a class="navbar-link a-line" href="portfolio.html">Portfolio</a>
+              <a class="navbar-link" href="portfolio.html">Portfolio</a>
             </li>
             <li>
-              <a class="navbar-link a-line" href="contacts.html">Kontakt</a>
+              <a class="navbar-link" href="contacts.html">Kontakt</a>
             </li>
           </ul>
         </nav>
 
-        <ul class="ul">
+        <ul>
           <li>
-            <a class="address-g a-line link" href="mailto:info@devstudio.com"
+            <a class="address-g link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
 
           <li>
-            <a class="address-g a-line link" href="tel:+48111111111">
-              +48111111111</a
-            >
+            <a class="address-g link" href="tel:+48111111111"> +48111111111</a>
           </li>
         </ul>
       </div>
     </header>
 
     <main>
-      <section>
-        <div>
-          <ul class="ul">
+      <section class="section">
+        <div class="container">
+          <ul>
             <li>
               <button class="filter-button" type="button">Wszystkie</button>
             </li>
@@ -78,7 +83,7 @@
             </li>
           </ul>
 
-          <ul class="ul">
+          <ul>
             <li>
               <img
                 src="images/p1.jpg"
@@ -86,7 +91,7 @@
                 width="370"
                 height="294"
               />
-              <div>
+              <div class="footer-portfolio">
                 <h3 class="projects-heading">Technocrack</h3>
                 <p class="projects-filter">Strona internetowa</p>
               </div>
@@ -98,7 +103,7 @@
                 width="370"
                 height="294"
               />
-              <div>
+              <div class="footer-portfolio">
                 <h3 class="projects-heading">
                   Grafika New Orlean vs Golden Star
                 </h3>
@@ -112,7 +117,7 @@
                 width="370"
                 height="294"
               />
-              <div>
+              <div class="footer-portfolio">
                 <h3 class="projects-heading">Restauracja Seafood</h3>
                 <p class="projects-filter">Aplikacja</p>
               </div>
@@ -124,7 +129,7 @@
                 width="370"
                 height="294"
               />
-              <div>
+              <div class="footer-portfolio">
                 <h3 class="projects-heading">Projekt Prime</h3>
                 <p class="projects-filter">Marketing</p>
               </div>
@@ -136,7 +141,7 @@
                 width="370"
                 height="294"
               />
-              <div>
+              <div class="footer-portfolio">
                 <h3 class="projects-heading">Projekt Boxes</h3>
                 <p class="projects-filter">Aplikacja</p>
               </div>
@@ -148,7 +153,7 @@
                 width="370"
                 height="294"
               />
-              <div>
+              <div class="footer-portfolio">
                 <h3 class="projects-heading">Inspiration has no Borders</h3>
                 <p class="projects-filter">Strona internetowa</p>
               </div>
@@ -167,7 +172,7 @@
                 width="370"
                 height="294"
               />
-              <div>
+              <div class="footer-portfolio">
                 <h3 class="projects-heading">Projekt LAB</h3>
                 <p class="projects-filter">Marketing</p>
               </div>
@@ -179,7 +184,7 @@
                 width="370"
                 height="294"
               />
-              <div>
+              <div class="footer-portfolio">
                 <h3 class="projects-heading">Growing Business</h3>
                 <p class="projects-filter">Aplikacja</p>
               </div>
@@ -190,28 +195,24 @@
     </main>
 
     <footer class="footer">
-      <div>
+      <div class="container">
         <a class="logo logo-footer" href="index.html"
           >Web<span class="wite">Studio</span></a
         >
         <address>
-          <ul class="ul">
+          <ul>
             <li>
-              <a
-                class="address-w a-line"
-                href="https://goo.gl/maps/qMu27mZDg4rq8LWC8"
+              <a class="address-w" href="https://goo.gl/maps/qMu27mZDg4rq8LWC8"
                 >m. Warszawa, Aleje Jerozolimskie 21</a
               >
             </li>
             <li>
-              <a
-                class="address a-line contacts"
-                href="mailto:info@devstudio.com"
+              <a class="address contacts" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
             <li>
-              <a class="address a-line contacts" href="tel:+48111111111">
+              <a class="address contacts" href="tel:+48111111111">
                 +48 111 111 111</a
               >
             </li>
