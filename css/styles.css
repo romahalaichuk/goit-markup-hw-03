@@ -113,8 +113,10 @@ h1 {
   display: flex;
   flex-direction: column;
   padding: 20px 24px;
-  border-top: none;
-  border: 1px solid var(--border-portfolio);
+  border-top: 1px solid var(--border-portfolio);
+  border-right: 1px solid var(--border-portfolio);
+  border-bottom: 1px solid var(--border-portfolio);
+  border-left: 1px solid var(--border-portfolio);
 }
 .container-nav {
   display: flex;
@@ -153,7 +155,7 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding: 0 15;
+  padding: 0 15px;
 }
 .section {
   padding-top: 94px;
@@ -328,13 +330,16 @@ body {
 }
 
 .section-heading {
-  margin-top: 94px;
   font-size: 36px;
   line-height: 1.1;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.section-heading-team,
+.section-heading-team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .team-list {
   margin-top: 50px;
   display: flex;
@@ -427,11 +432,9 @@ body {
 .projects {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
+  gap: 30px;
 }
 .projects-item {
-  margin-left: 30px;
-  margin-top: 30px;
+  gap: 30px;
   background: var(--main-background-color);
 }
